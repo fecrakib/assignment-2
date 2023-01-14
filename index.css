@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+} 
+/* header-section */
+header{
+    background: rgba(255, 144, 14, 0.1);
+    width: 100%;
+    height: 1364px;
+}
+    header nav {
+        display: flex;
+        justify-content: space-around;
+        /* align-items: center; */
+        font-weight: 500;
+font-size: 18px;
+        padding: 22px 0;
+       
+      }
+      .menu ul {
+        display: flex;
+        gap: 30px;
+        list-style: none;
+        font-size: 23px;
+        color: #424242;
+        margin-right: 220px;
+      }
+      .header-description{
+        width: 862px;
+height: 250px;
+margin-top: 20px;
+text-align: center;
+      }
+      .header-description h1{
+        font-weight: 700;
+font-size: 64px;
+color: #131313;
+      }
+      .header-description p{
+        font-weight: 400;
+font-size: 16px;
+color: #727272;
+
+      }
+      .btn{
+        font-weight: 600;
+font-size: 20px;
+width: 180px;
+height: 64px;
+background: #FF900E;
+border-radius: 8px;
+margin-top: 30px;
+
+color: #FFFFFF;
+      }
+      .header-baner img{
+        width: 80%;
+height: 700px;
+border-radius: 8px;
+position: relative;
+left: 150px;
+
+      }
+      .header-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 100px;
+
+      }
+      /* team-mates */
+      .team-mates{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+      }
+      .team-mate{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        gap: 20px;
+        margin-top: 20px;
+        position: relative;
+        left: 150px;
+      }
+      .features{
+       
+        width: 537px;
+        height: 304px;
+       position: relative;
+       top: 200px;
+       left: 250px;
+      }
